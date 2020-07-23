@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Backbone.js Web App</title>
+        <link rel="stylesheet" href="css/screen.css" />
+    </head>
+    <body>
+        <div id="cosms">
+            <header>
+                <h1>Кафе</h1>
+                <div id="filter"><label>Категории </label></div>
+                <form id="addContact" action="#">
+                    <br>
+                    <input id="name" placeholder="Наименование блюда"/>
+                    <input id="price" placeholder="Цена" />
+                    <input id="type" placeholder="Категория" />
+                    <button id="add" class="add">Добавить</button>
+                </form>
+            </header>
+        </div>
+        <script id="contactTemplate" type="text/template">
+            <h1><%= price%><span><%= name %></span><span><%= type %></span></h1>
+            <button class="delete" id="delete">Удалить</button>
+        </script>
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/json2.js"></script>
+        <script src="js/underscore-min.js"></script>
+        <script src="js/backbone-min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

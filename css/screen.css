@@ -1,0 +1,77 @@
+﻿body {
+    background: url(1.JPG) no-repeat; /* fallback for old browsers */
+    background-size: 100%;
+    font-family: "Roboto", sans-serif;
+}
+.cosmContainer {
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    height: 37px;
+    border: 0;
+    margin: 0 0 10px;
+    padding: 5px 0px 0px 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.cosmContainer h1 { margin:0; font-weight:normal; float: left}
+.cosmContainer h1 span { margin-left: 15px;font-size:14px; vertical-align: central; font-weight:normal; }
+.cosmContainer button {  float:right; }
+
+#cosms {
+    
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.6);
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 15px;
+    margin-top:7%;
+}
+#cosms input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 15px;
+}
+#cosms button.add {
+    font-family: "Roboto", sans-serif;
+    text-transtodos: uppercase;
+    outline: 0;
+    background: #FF6B66;
+    font-weight: bold;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#cosms button.delete {
+    font-family: "Roboto", sans-serif;
+    text-transtodos: uppercase;
+    background: #3b3a3a;
+    width: auto;
+    border: 0;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: -5px;
+}
+#cosms button.add:hover,.cosms button:active,.cosms button:focus {
+    background: orangered;
+}
+#cosms button.delete:hover,.cosms button:active,.cosms button:focus {
+    background: #1a1818;
+}
